@@ -16,9 +16,9 @@ import os
 import sys
 import tkinter as tk
 
-from full_code.repos.stanfordkarel.stanfordkarel.didyoumean import didyoumean_hook  # type: ignore
-from full_code.repos.stanfordkarel.stanfordkarel.karel_application import KarelApplication
-from full_code.repos.stanfordkarel.stanfordkarel.karel_program import KarelProgram
+from stanfordkarel.didyoumean import didyoumean_hook  # type: ignore
+from stanfordkarel.karel_application import KarelApplication
+from stanfordkarel.karel_program import KarelProgram
 
 sys.excepthook = didyoumean_hook
 """

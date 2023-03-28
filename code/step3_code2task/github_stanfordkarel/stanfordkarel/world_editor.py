@@ -16,9 +16,9 @@ from tkinter import messagebox, simpledialog  # type: ignore
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 from typing import Any, Callable
 
-from step3_code2task.stanford_based.full_code.repos.stanfordkarel.stanfordkarel.karel_canvas import DEFAULT_ICON, LIGHT_GREY, PAD_X, PAD_Y, KarelCanvas
-from step3_code2task.stanford_based.full_code.repos.stanfordkarel.stanfordkarel.karel_program import KarelProgram
-from step3_code2task.stanford_based.full_code.repos.stanfordkarel.stanfordkarel.karel_world import COLOR_MAP, INFINITY, Direction
+from stanfordkarel.karel_canvas import DEFAULT_ICON, LIGHT_GREY, PAD_X, PAD_Y, KarelCanvas
+from stanfordkarel.karel_program import KarelProgram
+from stanfordkarel.karel_world import COLOR_MAP, INFINITY, Direction
 
 MIN_DIMENSIONS = 1
 MAX_DIMENSIONS = 50

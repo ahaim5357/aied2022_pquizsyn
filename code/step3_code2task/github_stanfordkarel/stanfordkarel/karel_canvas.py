@@ -18,8 +18,8 @@ import cmath
 import math
 import tkinter as tk
 
-from step3_code2task.stanford_based.full_code.repos.stanfordkarel.stanfordkarel.karel_program import KarelProgram
-from step3_code2task.stanford_based.full_code.repos.stanfordkarel.stanfordkarel.karel_world import Direction, KarelWorld, Wall
+from stanfordkarel.karel_program import KarelProgram
+from stanfordkarel.karel_world import Direction, KarelWorld, Wall
 
 DIRECTION_TO_RADIANS = {
     Direction.EAST: 0,

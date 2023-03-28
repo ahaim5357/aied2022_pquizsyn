@@ -19,8 +19,8 @@ Date of Creation: 10/1/2019
 from __future__ import annotations
 
 
-from code.step3_code2task.github_stanfordkarel.stanfordkarel.karel_ascii import AsciiKarelWorld, compare_output
-from code.step3_code2task.github_stanfordkarel.stanfordkarel.karel_world import COLOR_MAP, INFINITY, Direction, KarelWorld
+from stanfordkarel.karel_ascii import AsciiKarelWorld, compare_output
+from stanfordkarel.karel_world import COLOR_MAP, INFINITY, Direction, KarelWorld
 
 NEXT_DIRECTION_MAP = {
     Direction.NORTH: Direction.WEST,

@@ -13,7 +13,7 @@ from typing import Any, Callable
 
 import stanfordkarel
 
-from full_code.repos.stanfordkarel.stanfordkarel.karel_application import StudentCode
+from stanfordkarel.karel_application import StudentCode
 
 
 def style_test(func: Callable[..., bool]) -> Callable[..., bool]:

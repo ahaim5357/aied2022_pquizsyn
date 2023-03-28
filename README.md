@@ -9,6 +9,7 @@ The repository is structured as follows:
 * ```data/``` : This folder is where all the reference tasks, codes, and quizzes will be generated.
 
 All code files require Python version >= 3.7.3 to run. Before running the scripts, please run ```pip install -r requirements.txt``` and satisfy all the libraries required for running the module.
+Additionally, we cloned a version of `stanfordkarel` that needs to be installed locally using ```pip install ./code/step3_code2task/github_stanfordkarel```
 Refer the individual READMEs available in each of the folders for further details.
 
 Next, we present details to generate popquiz for the reference task, solution code and student in Fig. 1 and Fig. 5 of the paper run the demo scripts. 

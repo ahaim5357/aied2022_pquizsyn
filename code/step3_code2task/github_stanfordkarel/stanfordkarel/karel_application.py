@@ -20,7 +20,7 @@ from tkinter.messagebox import showwarning
 from types import FrameType
 from typing import Callable
 
-from code.step3_code2task.github_stanfordkarel.stanfordkarel.karel_program import KarelException, KarelProgram
+from stanfordkarel.karel_program import KarelException, KarelProgram
 
 class StudentCode:
     """

@@ -11,7 +11,7 @@ from __future__ import annotations
 from enum import Enum, unique
 from typing import Any, Dict, Iterator, Tuple
 
-from code.step3_code2task.github_stanfordkarel.stanfordkarel.karel_world import Direction, KarelWorld
+from stanfordkarel.karel_world import Direction, KarelWorld
 
 CHAR_WIDTH = 5
 HORIZONTAL, VERTICAL = "─", "│"
